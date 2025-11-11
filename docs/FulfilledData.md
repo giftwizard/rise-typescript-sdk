@@ -1,0 +1,21 @@
+# FulfilledData
+
+Data about the gift cards that were already fulfilled for this Line Item.
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**giftCardIds** | **Array&lt;string&gt;** | List of the IDs of the Gift Cards that were already fulfilled for this Line Item. | [optional] [readonly] [default to undefined]
+
+## Example
+
+```typescript
+import { FulfilledData } from 'rise-typescript-sdk';
+
+const instance: FulfilledData = {
+    giftCardIds,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
