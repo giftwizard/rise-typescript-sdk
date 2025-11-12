@@ -1,0 +1,23 @@
+# EmailParams1
+
+Settings for email notifications related to the WalletAction. This field is used to specify whether to skip email dispatch or override the template ID for email notifications.
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**skipEmailDispatch** | **boolean** | Indicates whether to skip email dispatch for the WalletAction. The default is false. | [optional] [default to undefined]
+**overrideTemplateId** | **string** | ID of the email template to be used for the WalletAction, if default template is to be overridden. | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { EmailParams1 } from 'rise-typescript-sdk';
+
+const instance: EmailParams1 = {
+    skipEmailDispatch,
+    overrideTemplateId,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
