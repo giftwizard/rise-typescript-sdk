@@ -1,0 +1,20 @@
+# PaymentMethodRefundOptions
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**paymentMethodRefundOptions** | [**PaymentMethodRefundOptionsPaymentMethodRefundOptions**](PaymentMethodRefundOptionsPaymentMethodRefundOptions.md) |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { PaymentMethodRefundOptions } from 'rise-typescript-sdk';
+
+const instance: PaymentMethodRefundOptions = {
+    paymentMethodRefundOptions,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
